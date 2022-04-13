@@ -1,0 +1,364 @@
+html {
+    scroll-behavior: smooth;
+}
+
+::-moz-selection {
+    color: black;
+    background: #fadea0;
+}
+
+::selection {
+    color: black;
+    background: #fadea0;
+}
+
+.page-align {
+    margin: 0;
+}
+
+.page-align::-webkit-scrollbar {
+    display: none;
+}
+
+#navbar {
+    display: block;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    transition: top 0.3s ease-in-out;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #807867;
+    color: black;
+}
+
+#navbar a.active {
+    background-color: black;
+    color: #d50000;
+}
+
+.me {
+    color: white;
+    float: right;
+    position: sticky;
+    left: 90%;
+}
+
+.grad {
+    background-color: #010101;
+    background-repeat: no-repeat;
+}
+
+.arrow {
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    display: inline-block;
+    padding: 5px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+
+#myBtn {
+    border-radius: 50%;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background: none;
+    /*background-color: #555;
+    color: white;*/
+    cursor: pointer;
+    padding: 20px;
+    font-size: 8px;
+    transition: ease 1.0s;
+}
+
+#myBtn:hover {
+    background-color: red;
+}
+
+.text {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    background-image: url("img/nolan2.jpg");
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 80px;
+    letter-spacing: 3px;
+    color: #d50000;
+    position: absolute;
+    top: 170px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container1 {
+    position: relative;
+    text-align: center;
+    top: 200px;
+    padding-top: 25px;
+    height: 400px;
+}
+
+.imgxl {
+    position: relative;
+    right: 34.5%;
+    height: 300px;
+    align-self: center;
+}
+
+.textboxl {
+    position: relative;
+    align-content: center;
+    top: -200px;
+    width: 700px;
+    left: 40%;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.container2 {
+    position: relative;
+    text-align: center;
+    top: 350px;
+    padding-top: 25px;
+    height: 500px;
+}
+
+.imgxr {
+    position: relative;
+    left: 28%;
+    height: 300px;
+    align-self: center;
+}
+
+.textboxr {
+    position: relative;
+    align-content: center;
+    top: -250px;
+    width: 800px;
+    left: 80px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.container3 {
+    position: relative;
+    text-align: center;
+    top: 350px;
+    padding-top: 25px;
+    height: 400px;
+}
+
+.imgxl2 {
+    position: relative;
+    right: 31.5%;
+    height: 300px;
+    align-self: center;
+}
+
+.textboxl2 {
+    position: relative;
+    align-content: center;
+    top: -240px;
+    width: 700px;
+    left: 40%;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.container4 {
+    position: relative;
+    text-align: center;
+    top: 450px;
+    padding-top: 25px;
+    height: 500px;
+}
+
+.imgxr2 {
+    position: relative;
+    left: 28%;
+    height: 300px;
+    align-self: center;
+}
+
+.textboxr2 {
+    position: relative;
+    align-content: center;
+    top: -240px;
+    width: 800px;
+    left: 80px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.container5 {
+    position: relative;
+    text-align: center;
+    top: 500px;
+    padding-top: 25px;
+    height: 500px;
+}
+
+.imgxl3 {
+    position: relative;
+    right: 30.5%;
+    height: 300px;
+    align-self: center;
+}
+
+.textboxl3 {
+    position: relative;
+    align-content: center;
+    top: -230px;
+    width: 700px;
+    left: 40%;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.container6 {
+    position: relative;
+    text-align: center;
+    top: 560px;
+    padding-top: 25px;
+    height: 500px;
+}
+
+.imgxr3 {
+    position: relative;
+    left: 28%;
+    height: 300px;
+    align-self: center;
+}
+
+.textboxr3 {
+    position: relative;
+    align-content: center;
+    top: -260px;
+    width: 800px;
+    left: 110px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.container7 {
+    position: relative;
+    text-align: center;
+    top: 590px;
+    padding-top: 25px;
+    height: 500px;
+}
+
+.imgxl4 {
+    position: relative;
+    right: 30.5%;
+    height: 300px;
+    align-self: center;
+}
+
+.textboxl4 {
+    position: relative;
+    align-content: center;
+    top: -250px;
+    width: 700px;
+    left: 40%;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.container8 {
+    position: relative;
+    text-align: center;
+    top: 600px;
+    padding-top: 25px;
+    height: 500px;
+}
+
+.imgxr4 {
+    position: relative;
+    left: 28%;
+    height: 300px;
+    align-self: center;
+}
+
+.textboxr4 {
+    position: relative;
+    align-content: center;
+    top: -260px;
+    width: 800px;
+    left: 110px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.container9 {
+    position: relative;
+    text-align: center;
+    height: 1000px;
+    top: 700px;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.textbox {
+    position: relative;
+    top: 100px;
+    width: 90%;
+    left: 60px;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.imgx {
+    position: relative;
+    height: 500px;
+    align-self: center;
+}
